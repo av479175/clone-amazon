@@ -1,0 +1,46 @@
+#navbar {
+    height: 60px;
+    border: 2PX SOLID BLACK;
+    background-color: yellow;
+    font-family: cursive;
+    font-size: 20px;
+    
+    }
+#items {
+    display: flex;
+    direction: row;/*defaukt*/
+    justify-content: space-between;
+    margin-right: 10px;   
+}
+li {
+    background-color: azure;
+    list-style-type: none;
+}
+
+#back {
+        position: relative;
+        bottom: 0px;
+}
+#outer {
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    /*position: relative;
+    left: 300px;
+    top: 100px; some errors*/
+    display: flex;
+    direction: row;/*default*/
+    /*justify-content: center;iski main axis mein center pe hogya
+    /*align-content: center;*/
+
+    align-items: center;/*cross axis ke along center mein*/
+    justify-content: center;
+}
+#inner {
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    /*align-self: center;*/
+    background-color: coral;
+}
+

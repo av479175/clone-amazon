@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container {
+    width: 400px;
+    height: 400px;
+    display: flex; /*flex bix on*/
+    /*direction: row;  by deafault */
+    /*flex-direction: column;   top to bottom*/
+    flex-direction: row;
+    justify-content:center;
+    /*flex-wrap: wrap;
+    /*align-items: center;
+    /*align-content: flex-start;/*manages space in between content*/
+
+}
+#box1 {
+    background-color: aqua;
+}
+#box2 {
+    background-color:palevioletred;
+}
+#box3 {
+    background-color: chartreuse;
+    flex-shrink: 5;/*can be greator or less than one controls the shirnking speed of box element,0 for no change*/
+}
+#box4 {
+    background-color: brown;
+}
+#box5 {
+    background-color: blue;
+    /*align-self: flex-end;/*cross axis arrangement, highest property*/
+}
